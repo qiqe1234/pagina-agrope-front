@@ -1,16 +1,17 @@
 
 
 
-
-
+import ListPost from '../components/ListPost';
+ import "../Styles/activitiesStyles.css"
 const Activities=()=>{
     
     
     
     return(
-    <div>
-        <h3>Avtividades</h3>
-        
+    <div className='container conteinerActivitis'>
+        <h1 id='idiTuloActividades'>Actividades</h1>
+
+        <ListPost/>
     </div>
     )
 }

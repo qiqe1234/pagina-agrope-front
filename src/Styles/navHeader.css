@@ -1,0 +1,58 @@
+@media screen and (max-width:993px) {
+    .tituloHeader{
+        font-size:35px!important
+    }
+}
+
+@media screen  and (max-width:768px) {
+    .tituloHeader{
+        font-size:33px!important
+    }
+}
+@media screen and (max-width:574px) {
+    .tituloHeader{
+        font-size: 30px!important;
+    }
+}
+@media screen and (min-height:992) {
+    .navStyles{
+        height: 52px;
+        font-size: 16px;
+    }
+}
+#contenedorHeader{
+    background-color: white !important;
+}
+
+#contHeader{
+    padding: 0 !important;
+    padding-left:2px ;
+    background-color: white;
+
+}
+#idTituloHeader{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+.tituloHeader{
+    
+    color:rgb(27, 118, 0) ;
+    font-family: Roboto;
+    font-size: 50px;
+    
+}
+.nav-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.navStyles{
+    background-color: rgb(27, 118, 0);
+   
+}
+.navLink{
+    color: white;
+}

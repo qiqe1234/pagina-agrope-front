@@ -1,0 +1,38 @@
+/* .logoTextContact{
+    color:
+} */
+
+@media screen and (max-width:1020px) {
+    #imgSponsor{
+        height: 450px !important;
+    }
+}
+@media screen and (max-width:512px) {
+    #imgSponsor{
+        height: 250px !important;
+    }
+    .InfoComunicacion{
+        margin: 20px 0px;
+    }
+}
+.textoContact{
+    padding-left: 5px;
+    color:black
+}
+#idSubTituloContatc{
+    padding-top: 100px;
+    font-size: 30px;
+}
+#imgSponsor{
+
+    height: 600px;
+    width: 100%;
+    border-radius: 5px;
+}
+.logoTextContact{
+    margin-left: 10px;
+}
+#tituloContact{
+    color: rgb(27, 118, 0);
+    margin: 20px 0px 50px 0px;
+}

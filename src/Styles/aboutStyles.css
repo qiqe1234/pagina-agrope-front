@@ -1,0 +1,53 @@
+@media screen and (max-width:1400px) {
+    .imgDirectiva{
+        height: 500px !important;
+        width: 500px !important;
+        margin: 20px;
+        
+    }
+    .divContentDirectiva{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .divContentAbout{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+    .imgDirectiva{
+        height: 350px !important;
+        width: 350px !important;
+        margin: 10px 0% !important;
+    }
+}
+
+
+.tituloAbout{
+    color: rgb(34, 125, 6);
+}
+.parrafoAbout{
+    font-size: 21px;
+}
+.divContentAbout{
+    border-radius: 5px;
+    margin: 10px;
+    /* background-color: rgb(121, 224, 114,0.3); */
+}
+.divImgDirectiva{
+    display: block;
+}
+.tituloAbout{
+    font-size:40px ;
+    text-align: center;
+}
+.imgDirectiva{
+    height: 400px;
+    width: 400px;
+}

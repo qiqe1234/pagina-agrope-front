@@ -1,0 +1,9 @@
+.conteinerActivitis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#idiTuloActividades{
+    color: rgb(27, 118, 0);
+}

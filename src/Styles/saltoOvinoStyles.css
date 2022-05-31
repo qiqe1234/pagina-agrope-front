@@ -1,0 +1,72 @@
+
+
+
+@media screen and (max-width:1200px) {
+    .contImgOvino{
+        display: none !important;
+    }
+    .FotoXs{
+        display: flex !important;
+        
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgXs{
+        margin: 0px 20px;
+    }
+    .divListasCronograma{
+        margin: 100px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .desapareceXs{
+        display: none;
+    }
+    .liItinerario{
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width:458px) {
+    .liItinerario{
+        font-size: 15px !important;
+    }
+    .divListasCronograma{
+        margin: 50px 0px !important;
+    }
+}
+
+
+.FotoXs{
+    display: none ;
+}
+.titulo{
+    color:rgb(27, 118, 0) ;
+}
+.subtitulo{
+    color:rgb(27, 118, 0) ;
+}
+.imgFormato{
+    margin: 20px 0px;
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 5px;
+    
+}
+.contImgOvino{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.liItinerario{
+    font-size: 23px;
+    font-weight: bold;
+}
+.divListasCronograma{
+    margin: 100px 10px;
+}

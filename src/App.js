@@ -1,6 +1,6 @@
 
 import {
-    BrowserRouter as Router  ,
+    BrowserRouter   ,
     Routes,
     Route,
     
@@ -12,22 +12,32 @@ import Home from './page/Home';
 import Activities from './page/Activities'
 import AboutUs from './page/AboutUs'
 import Contact from "./page/Contact";
+import Footer from "./components/Footer"
+import SaltoOvino from "./page/SaltoOvino"
 
 function App() {
   return (
+  
     <div>
-
-      <Router>
-            <NavBar/>                   
-            <Routes Routes>
-                <Route  path="/" element={<Home/>}/>                       
-                <Route path="/Activities" element={<Activities/>}/>
-                <Route path="/AboutUs" element={<AboutUs/>}/>
-                <Route path="/Contact" element={<Contact/>}/>
-            </Routes>                  
-        </Router>
+        <BrowserRouter>
+        
+            <NavBar />
+            <div >
+                <Routes  >
+                    <Route  path="/" element={<Home/>}/>                       
+                    <Route path="/Activities" element={<Activities/>}/>
+                    <Route path="/AboutUs" element={<AboutUs/>}/>
+                    <Route path="/Contact" element={<Contact/>}/>
+                    <Route path="/SaltoOvino" element={<SaltoOvino/>}/>
+                </Routes>                 
+            </div>                   
+             <Footer/>
+        </BrowserRouter>
 
     </div>
+      
+
+
     
   );
 }
