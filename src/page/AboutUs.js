@@ -58,7 +58,7 @@ const AboutUs=()=>{
                 <p className="parrafoAbout">
                     - Pugnar por la creación de fuentes de educación y cultura en el medio rural
                     tratando que en los programas de enseñanza sean incluidos conocimientos
-                    teorico-practicos que capaciten al joven para llenar su función en el medio rural.
+                    teórico-prácticos que capaciten al joven para llenar su función en el medio rural.
                 </p>
                 <p className="parrafoAbout">
                     - Defender y promover al joven trabajador rural la dignidad de su profesión y sus

@@ -21,7 +21,7 @@ const NavBar=()=>{
                 </div>
                 <div className="col-8 col-sm-9 col-xl-11 text-center d-done d-block " id="idTituloHeader"  >
                     
-                    <h2 className=" tituloHeader">Asociacion Agropecuaria de Jovenes Salto</h2>
+                    <h2 className=" tituloHeader">Asociación Agropecuaria de Jóvenes Salto</h2>
                 </div>
                 
             </div>

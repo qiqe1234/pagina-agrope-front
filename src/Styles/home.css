@@ -6,10 +6,33 @@
     .stlImagenes{
         height: 500px !important
     }
+
+    .textHome{
+        font-size: 25px !important;
+    }
+    .tituloHome{
+        font-size: 50px !important;
+    }
 }
-@media screen and (max-width:720px){
+@media screen and (max-width:768px){
     .stlImagenes{
         height: 300px !important;
+    }
+    .textHome{
+        font-size: 15px !important;
+        
+    }
+    .tituloHome{
+        font-size: 30px !important;
+        
+    }
+}
+@media screen and (max-width:300px) {
+    .textHome{
+        font-size: 10px !important;
+    }
+    .tituloHome{
+        font-size: 20px !important;
     }
 }
 .carousel-item{
@@ -25,10 +48,15 @@
     height: 800px;
 }
 .tituloHome{
-    display: flex;
+    font-size: 60px;
+    /* display: flex; */
     text-align: center;
     color: rgb(34, 125, 6);
 }
 .textHome{
-    font-size:25px;
+    color: black;
+    font-size:40px;
+}
+.idImgHome{
+    opacity:0.4 !important ;
 }

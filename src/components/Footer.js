@@ -13,7 +13,7 @@ const footer=()=>{
             <div className="row" >
             <div className="col-12 col-sm-12 col-md-7 col-xl-6 divCenter">
                     <p className="textoFooterNombre" >
-                        Asociacion Agropecuaria de Jovenes Salto
+                        Asociación Agropecuaria de Jóvenes Salto
                     </p>
                     {/* <p className="textoFooterNombre">
                         Federacion Rural de Jovenes
@@ -23,7 +23,7 @@ const footer=()=>{
                 
                 
                 <div className="col-12 col-sm-12 col-md-5 col-xl-6 pt-3 divCenter">
-                        <span id="divContactanos">Contactanos</span>
+                        <span id="divContactanos">Contáctanos</span>
                         
                         <div className="logoText" >
                             <a className=" infoEnlaces" href="https://www.instagram.com/aajsalto/?hl=es" >
@@ -46,7 +46,7 @@ const footer=()=>{
                         
                         <div className="logoText">
                             <img src={ubicacionLogo} alt="" height="30px" width="35px" />
-                            <p className="textoFooter">Calle Amorin 55, Salto, Uruguay</p>
+                            <p className="textoFooter">Calle Amorín 55, Salto, Uruguay</p>
                         </div>
                         
                     
