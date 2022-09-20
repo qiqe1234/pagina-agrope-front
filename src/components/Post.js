@@ -1,9 +1,11 @@
-        
+import "../Styles/posts.css"        
+
+
 const Post=(props)=>{
     const post= props.post;
     
     return(
-        <div className="contPost">
+        <div className="contPost" >
           <div className="card cardTamaño" >
           <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner" >

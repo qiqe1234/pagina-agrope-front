@@ -14,7 +14,8 @@ const Home=()=>{
             </div> */}
             <div id="carouselExampleFade" class="carousel slide carousel-fade  mt-4 "  data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3000">
+
+                    <div class="carousel-item active" data-bs-interval="6000">
                         <img src={FotoCampo} class="d-block w-100 idImgHome" alt="..."/>
                         <div className="carousel-caption  d-xs-block">
                         <h1 className="tituloHome">¿Quienes Somos?</h1>
@@ -22,7 +23,8 @@ const Home=()=>{
                         
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="3000">
+                    
+                    <div class="carousel-item" data-bs-interval="6000">
                         <img src={FotoCampo} class="d-block w-100 idImgHome" alt="..."/>
                         <div className="carousel-caption d-xs-block ">
                         <h1 className="tituloHome">¿Que hacemos?</h1>
@@ -30,6 +32,7 @@ const Home=()=>{
                         
                         </div>
                     </div>
+
                     
                 </div>
                 {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
